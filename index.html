@@ -3,20 +3,305 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table Sticky</title>
+    <title>CSS Table Sticky</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./scss/main.scss">
   </head>
   <body>
-    <div class="container">
+    <div class="container mt-5">
 
-        <div class="row">
+      <div class="row">
+        <div class="col">
+          <h2>Table sticky</h2>
+          <p>Pure responsive css table with stiky thead and first col. Compatible with safari/ios</p>
+        </div>
+        <div class="col">
 
-            <div class="col">
-
-            </div>
+          <div class="su-table">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Age</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Address</th>
+                  <th scope="col">City</th>
+                  <th scope="col">Country</th>
+                  <th scope="col">Postal Code</th>
+                  <th scope="col">Phone</th>  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>001</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>004</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>005</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>006</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>007</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>008</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>009</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>010</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>004</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>005</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>006</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>007</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>008</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>009</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+                <tr>
+                  <td>010</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>13</td>
+                  <td>email@email.com</td>
+                  <td>2537  Pheasant Ridge Road</td>
+                  <td>Philadelphia</td>
+                  <td>Pennsylvania</td>
+                  <td>55372</td>
+                  <td>763-746-9675</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
         </div>
+
+      </div>
 
     </div>
   </body>
