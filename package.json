@@ -1,0 +1,27 @@
+{
+  "name": "css-table-sticky",
+  "version": "1.0.0",
+  "description": "Pure css responsive table with sticky header and first column",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanahernandezd/css-table-sticky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanahernandezd/css-table-sticky/issues"
+  },
+  "homepage": "https://github.com/susanahernandezd/css-table-sticky#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
